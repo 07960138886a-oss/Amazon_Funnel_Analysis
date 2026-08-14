@@ -44,13 +44,13 @@ This pattern also occurs across each segmented dimension (channels, devices, reg
 
 
         
-4\. Pipeline Architecture & Tech Stack           
+3\. Pipeline Architecture & Tech Stack           
 [ Raw Data Generation ] ──> [ Session Aggregation (Pandas) ] ──> [ Funnel & KPI Modeling ] ──> [ Multi-Dimensional Analysis ] ──> [ Interactive Visualization & Insights ]             
 (1) Data Engineering & Synthetic Data: Python (Faker, Pandas, Numpy, Datetime)                 
 (2) Behavioral & Funnel Analytics: Python (Pandas, Aggregation, Time-series modeling)               
 (3) Data Visualization: Python (Matplotlib, Seaborn, Plotly), Power BI.                  
 
-5\. User Funnel Performance Dashboards & Drop-off Diagnostics               
+4\. User Funnel Performance Dashboards & Drop-off Diagnostics               
 <table border="0" width="100%">
   <tr>
     <td align="center" width="50%"><b>(1) User Funnel Performance Dashboard</b></td>
@@ -67,7 +67,7 @@ This pattern also occurs across each segmented dimension (channels, devices, reg
 </table>
 Download and view the source dashboard file: [1funnel_analysis.pbix](./1funnel_analysis.pbix).    
 
-6\. Python Code & Analytical Implementation           
+5\. Python Code & Analytical Implementation           
 (1) Synthetic Data Generation & Data Cleaning         
 Generated 10,000 user session records using Faker with custom event conditional probabilities.       
 Data quality checks, timestamp transformations, and duration calculations were executed seamlessly.       
@@ -76,7 +76,7 @@ View simulated raw dataset: [amazon_funnel_analysis_data.csv](./amazon_funnel_an
 Aggregated raw event logs into session-level records (`session_summary`) to evaluate conversion rates, drop-off rates, and Revenue per Session (RPS) across channels, devices, product categories, regions, and time periods.        
 View the full analysis & Python implementation and outputs: [Amazon_Funnel_Analysis.ipynb](./Amazon_Funnel_Analysis.ipynb)
 
-7\. Strategic Recommendations       
+6\. Strategic Recommendations       
 (1) Cart Abandonment Recovery: Address the 70.11% drop-off at the Purchases stage by streamlining checkout UX and launching automated cart abandonment email campaigns, unlocking an estimated $3,948,086.39 in potential revenue recovery.       
 (2) Budget Optimization: Reallocate marketing spend toward high-ROI channels, prioritizing Sponsored Brands (11.10% CVR) and Sponsored Products.       
 (3) Regional Strategy Replication: Benchmark and replicate successful promotional strategies from Northern Ireland (11.26% CVR) across lower-performing markets such as England (10.26% CVR).        
