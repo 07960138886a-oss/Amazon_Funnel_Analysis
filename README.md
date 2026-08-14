@@ -11,7 +11,7 @@ Analytic overview across a customer interaction base of 10,000 sessions (21,676 
 The Purchases stage experienced the highest drop-off rate (70.11% drop-off from Basket Adds to Purchases overall), representing significant cart abandonment across the user journey.
  <img width="917" height="365" alt="截屏2026-08-14 20 10 51" src="https://github.com/user-attachments/assets/a8081f53-e452-4325-9cb3-3075bc59ef04" />.       
 This pattern also occurs across each segmented dimension (channels, devices, regions, and product categories).        
-(3) Performance Highlights:                  
+(3) Performance Highlights:       
     <table border="0">
   <tr>
     <td align="center" width="33%">
@@ -50,8 +50,7 @@ This pattern also occurs across each segmented dimension (channels, devices, reg
 (2) Behavioral & Funnel Analytics: Python (Pandas, Aggregation, Time-series modeling)               
 (3) Data Visualization: Python (Matplotlib, Seaborn, Plotly), Power BI.                  
 
-5\. User Funnel Performance Dashboards & Drop-off Diagnostics
-
+5\. User Funnel Performance Dashboards & Drop-off Diagnostics               
 <table border="0" width="100%">
   <tr>
     <td align="center" width="50%"><b>(1) User Funnel Performance Dashboard</b></td>
@@ -66,11 +65,13 @@ This pattern also occurs across each segmented dimension (channels, devices, reg
     </td>
   </tr>
 </table>
+Download and view the source dashboard file: [1funnel_analysis.pbix](./1funnel_analysis.pbix).    
 
 6\. Python Code & Analytical Implementation           
 (1) Synthetic Data Generation & Data Cleaning         
 Generated 10,000 user session records using Faker with custom event conditional probabilities.       
-Data quality checks, timestamp transformations, and duration calculations were executed seamlessly.          
+Data quality checks, timestamp transformations, and duration calculations were executed seamlessly.       
+View simulated raw dataset: [amazon_funnel_analysis_data.csv](./amazon_funnel_analysis_data.csv).       
 (2) Session-Level Aggregation & Multi-Dimensional EDA         
 Aggregated raw event logs into session-level records (`session_summary`) to evaluate conversion rates, drop-off rates, and Revenue per Session (RPS) across channels, devices, product categories, regions, and time periods.        
 View the full analysis & Python implementation and outputs: [Amazon_Funnel_Analysis.ipynb](./Amazon_Funnel_Analysis.ipynb)
