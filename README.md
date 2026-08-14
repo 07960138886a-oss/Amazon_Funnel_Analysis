@@ -73,7 +73,7 @@ Generated 10,000 user session records using Faker with custom event conditional 
 Data quality checks, timestamp transformations, and duration calculations were executed seamlessly.          
 (2) Session-Level Aggregation & Multi-Dimensional EDA         
 Aggregated raw event logs into session-level records (`session_summary`) to evaluate conversion rates, drop-off rates, and Revenue per Session (RPS) across channels, devices, product categories, regions, and time periods.        
-For the complete Python script, see funnel analysis.py.
+View the full analysis & Python implementation and outputs: [Amazon_Funnel_Analysis.ipynb](./Amazon_Funnel_Analysis.ipynb)
 
 7\. Strategic Recommendations       
 (1) Cart Abandonment Recovery: Address the 70.11% drop-off at the Purchases stage by streamlining checkout UX and launching automated cart abandonment email campaigns, unlocking an estimated $3,948,086.39 in potential revenue recovery.       
