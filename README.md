@@ -6,7 +6,7 @@ An end-to-end e-commerce funnel analytics project that uses Python to simulate A
 2. Executive Summary & Key Metrics
 Analytic overview across a customer interaction base of 10,000 sessions (21,676 event records) during 2026-07-15 to 2026-08-14:              
 (1) Key Metrics:                      
-    1,068 Total Orders | 10.68% Overall Conversion Rate | $1,179,313.12 Total Revenue | $1,104.23 Average Order Value (AOV).        
+1,068 Total Orders | 10.68% Overall Conversion Rate | $1,179,313.12 Total Revenue | $1,104.23 Average Order Value (AOV).        
 (2) Primary Funnel Bottlenecks:       
 The Purchases stage experienced the highest drop-off rate (70.11% drop-off from Basket Adds to Purchases overall), representing significant cart abandonment across the user journey.
  <img width="917" height="365" alt="截屏2026-08-14 20 10 51" src="https://github.com/user-attachments/assets/a8081f53-e452-4325-9cb3-3075bc59ef04" />.       
@@ -65,7 +65,8 @@ This pattern also occurs across each segmented dimension (channels, devices, reg
     </td>
   </tr>
 </table>
-Download and view the source dashboard file: [1funnel_analysis.pbix](./1funnel_analysis.pbix).    
+<a href="./1funnel%20analysis.pbix">Click here to download the interactive Power BI report (.pbix)</a>.          
+ 
 
 5\. Python Code & Analytical Implementation           
 (1) Synthetic Data Generation & Data Cleaning         
