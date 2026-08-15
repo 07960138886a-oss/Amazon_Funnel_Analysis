@@ -1,7 +1,7 @@
 <h1 align="center">Amazon Funnel Analysis</h1>
 
 1. Project Introduction                 
-An end-to-end e-commerce funnel analytics project that uses Python to simulate Amazon user behavior data, track stage-to-stage session drop-offs, analyze multi-dimensional drop-off drivers, and deliver strategic recommendations to boost conversion rates and sales.
+An end-to-end e-commerce funnel analytics project that uses Python to analyze Amazon user behavior data, track stage-to-stage session drop-offs, analyze multi-dimensional drop-off drivers, and deliver strategic recommendations to boost conversion rates and sales.
 
 2. Executive Summary & Key Metrics
 Analytic overview across a customer interaction base of 10,000 sessions (21,676 event records) during 2026-07-15 to 2026-08-14:              
@@ -46,7 +46,7 @@ This pattern also occurs across each segmented dimension (channels, devices, reg
         
 3\. Pipeline Architecture & Tech Stack           
 [ Raw Data Generation ] ──> [ Session Aggregation (Pandas) ] ──> [ Funnel & KPI Modeling ] ──> [ Multi-Dimensional Analysis ] ──> [ Interactive Visualization & Insights ]             
-(1) Data Engineering & Synthetic Data: Python (Faker, Pandas, Numpy, Datetime)                 
+(1) Data Preparation & Data Cleaning: Python (Pandas, Numpy, Datetime)                 
 (2) Behavioral & Funnel Analytics: Python (Pandas, Aggregation, Time-series modeling)               
 (3) Data Visualization: Python (Matplotlib, Seaborn, Plotly), Power BI.                  
 
